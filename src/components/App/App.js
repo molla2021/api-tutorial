@@ -16,7 +16,7 @@ function App() {
   }, [])
   return(
     <div className="wrapper">
-     <h1>My Grocery List</h1>
+     <h1>My Grocery Lists</h1>
      <ul>
        {list.map(item => <li key={item.item}>{item.item}</li>)}
      </ul>
